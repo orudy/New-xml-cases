@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+	<name><![CDATA[015 000 variables AL NL 715]]></name>
+	<description><![CDATA[define variables for phonecase. Always run this script first]]></description>
+	<configurationUrl><![CDATA[c:\testautomaat\_config]]></configurationUrl>
+	<actions>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$vendor$$]]></prop0>
+			<prop1><![CDATA[albelli]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$product$$]]></prop0>
+			<prop1><![CDATA[PhoneCase]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$productsmall$$]]></prop0>
+			<prop1><![CDATA[phonecase]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$prodshort$$]]></prop0>
+			<prop1><![CDATA[pho]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$language$$]]></prop0>
+			<prop1><![CDATA[nl]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$papid$$]]></prop0>
+			<prop1><![CDATA[715]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Title$$]]></prop0>
+			<prop1><![CDATA[Samsung Galaxy S5 telefoonhoesje]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$UploadSmallPhoto$$]]></prop0>
+			<prop1><![CDATA[Phonecase Kies je foto (klein)]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$UploadBigPhoto$$]]></prop0>
+			<prop1><![CDATA[Phonecase Kies je foto (groot)]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Colour$$]]></prop0>
+			<prop1><![CDATA[Filter 1]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Black/White$$]]></prop0>
+			<prop1><![CDATA[Filter 2]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$BlackAndWhite$$]]></prop0>
+			<prop1><![CDATA[zwartenwit]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Sepia$$]]></prop0>
+			<prop1><![CDATA[Filter 3]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$PriceText$$]]></prop0>
+			<prop1><![CDATA[€19,95]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Next$$]]></prop0>
+			<prop1><![CDATA[Phonecase Volgende]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$customerservice$$]]></prop0>
+			<prop1><![CDATA[Klantenservice - Wij helpen je graag bij je vragen | Albelli]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$BackToTheEditor$$]]></prop0>
+			<prop1><![CDATA[Terug naar product]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Continue$$]]></prop0>
+			<prop1><![CDATA[Verder met bestellen]]></prop1>
+			<prop3><![CDATA[Verder met bestellen]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$BasketTitle$$]]></prop0>
+			<prop1><![CDATA[Je winkelmandje]]></prop1>
+			<prop3><![CDATA[Je winkelmandje]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$AddPhotos$$]]></prop0>
+			<prop1><![CDATA[Foto('s) toevoegen]]></prop1>
+			<prop3><![CDATA[Foto('s) toevoegen]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$BaseTitle$$]]></prop0>
+			<prop1><![CDATA[Albelli.nl | Fotoboek, canvas of agenda maken met je eigen foto's]]></prop1>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$HeaderCustomerServices$$]]></prop0>
+			<prop1><![CDATA[Header CustomerServices]]></prop1>
+			<prop3><![CDATA[]]></prop3>
+		</task>
+		<task name="Log">
+			<prop0><![CDATA[Vendor: $$vendor$$]]></prop0>
+			<prop1><![CDATA[3]]></prop1>
+		</task>
+		<task name="Log">
+			<prop0><![CDATA[Product: $$product$$]]></prop0>
+			<prop1><![CDATA[3]]></prop1>
+		</task>
+		<task name="Log">
+			<prop0><![CDATA[Language: $$language$$]]></prop0>
+			<prop1><![CDATA[3]]></prop1>
+		</task>
+		<task name="Log">
+			<prop0><![CDATA[Papid: $$papid$$]]></prop0>
+			<prop1><![CDATA[3]]></prop1>
+		</task>
+		<task name="Log">
+			<prop0><![CDATA[Titel: $$Title$$]]></prop0>
+			<prop1><![CDATA[3]]></prop1>
+		</task>
+	</actions>
+</test>
