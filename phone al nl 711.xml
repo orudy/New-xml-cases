@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+	<name><![CDATA[015 000 variables AL NL 711]]></name>
+	<description><![CDATA[define variables for phonecase. Always run this script first]]></description>
+	<configurationUrl><![CDATA[c:\testautomaat\_config]]></configurationUrl>
+	<actions>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$vendor$$]]></prop0>
+			<prop1><![CDATA[albelli]]></prop1>
+			<prop3><![CDATA[albelli]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$product$$]]></prop0>
+			<prop1><![CDATA[PhoneCase]]></prop1>
+			<prop3><![CDATA[PhoneCase]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$productsmall$$]]></prop0>
+			<prop1><![CDATA[phonecase]]></prop1>
+			<prop3><![CDATA[phonecase]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$prodshort$$]]></prop0>
+			<prop1><![CDATA[pho]]></prop1>
+			<prop3><![CDATA[pho]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$language$$]]></prop0>
+			<prop1><![CDATA[nl]]></prop1>
+			<prop3><![CDATA[nl]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$papid$$]]></prop0>
+			<prop1><![CDATA[711]]></prop1>
+			<prop2><![CDATA[]]></prop2>
+			<prop3><![CDATA[712]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Title$$]]></prop0>
+			<prop1><![CDATA[iPhone 4 telefoonhoesje]]></prop1>
+			<prop3><![CDATA[iPhone 5 telefoonhoesje]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$UploadSmallPhoto$$]]></prop0>
+			<prop1><![CDATA[Phonecase Kies je foto (klein)]]></prop1>
+			<prop3><![CDATA[Phonecase Kies je foto (klein)]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$UploadBigPhoto$$]]></prop0>
+			<prop1><![CDATA[Phonecase Kies je foto (groot)]]></prop1>
+			<prop3><![CDATA[Phonecase Kies je foto (groot)]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$QualityText$$]]></prop0>
+			<prop1><![CDATA[Kwaliteit:]]></prop1>
+			<prop3><![CDATA[Kwaliteit:]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$QualityInsufficient$$]]></prop0>
+			<prop1><![CDATA[Onvoldoende]]></prop1>
+			<prop3><![CDATA[Onvoldoende]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$QualityExcellent$$]]></prop0>
+			<prop1><![CDATA[Uitstekend]]></prop1>
+			<prop3><![CDATA[Uitstekend]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Qualityreasonable$$]]></prop0>
+			<prop1><![CDATA[Redelijk]]></prop1>
+			<prop3><![CDATA[Redelijk]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$QualityGood$$]]></prop0>
+			<prop1><![CDATA[Goed]]></prop1>
+			<prop3><![CDATA[Goed]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Colour$$]]></prop0>
+			<prop1><![CDATA[Filter 1]]></prop1>
+			<prop3><![CDATA[Filter 1]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Black/White$$]]></prop0>
+			<prop1><![CDATA[Filter 2]]></prop1>
+			<prop3><![CDATA[Filter 2]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$BlackAndWhite$$]]></prop0>
+			<prop1><![CDATA[zwartenwit]]></prop1>
+			<prop3><![CDATA[zwartenwit]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Sepia$$]]></prop0>
+			<prop1><![CDATA[Filter 3]]></prop1>
+			<prop3><![CDATA[Filter 3]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$PriceText$$]]></prop0>
+			<prop1><![CDATA[€12,95]]></prop1>
+			<prop3><![CDATA[€12,95]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Next$$]]></prop0>
+			<prop1><![CDATA[Phonecase Volgende]]></prop1>
+			<prop3><![CDATA[Phonecase Volgende]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$WarningTitleText$$]]></prop0>
+			<prop1><![CDATA[De kwaliteit van je foto is niet optimaal]]></prop1>
+			<prop3><![CDATA[De kwaliteit van je foto is niet optimaal]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$customerservice$$]]></prop0>
+			<prop1><![CDATA[Klantenservice - Wij helpen je graag bij je vragen | Albelli]]></prop1>
+			<prop3><![CDATA[Klantenservice - Wij helpen je graag bij je vragen | Albelli]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$BackToTheEditor$$]]></prop0>
+			<prop1><![CDATA[Terug naar product]]></prop1>
+			<prop3><![CDATA[Terug naar product]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Continue$$]]></prop0>
+			<prop1><![CDATA[Verder met bestellen]]></prop1>
+			<prop3><![CDATA[Verder met bestellen]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Place1$$]]></prop0>
+			<prop1><![CDATA[1135,355]]></prop1>
+			<prop3><![CDATA[1135,355]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Move1$$]]></prop0>
+			<prop1><![CDATA[0,-65]]></prop1>
+			<prop3><![CDATA[0,-65]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$BasketTitle$$]]></prop0>
+			<prop1><![CDATA[Je winkelmandje]]></prop1>
+			<prop3><![CDATA[Je winkelmandje]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Place2$$]]></prop0>
+			<prop1><![CDATA[1000,450]]></prop1>
+			<prop3><![CDATA[1000,450]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Move2$$]]></prop0>
+			<prop1><![CDATA[0,-150]]></prop1>
+			<prop3><![CDATA[0,-150]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Move3$$]]></prop0>
+			<prop1><![CDATA[0,150]]></prop1>
+			<prop3><![CDATA[0,150]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Move4$$]]></prop0>
+			<prop1><![CDATA[100,00]]></prop1>
+			<prop3><![CDATA[100,00]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Move5$$]]></prop0>
+			<prop1><![CDATA[-100,00]]></prop1>
+			<prop3><![CDATA[-100,00]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$soort$$]]></prop0>
+			<prop1><![CDATA[editor.]]></prop1>
+			<prop3><![CDATA[editor.]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Verder met bestellen$$]]></prop0>
+			<prop1><![CDATA[Continue ordering]]></prop1>
+			<prop3><![CDATA[Continue ordering]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$LoginText$$]]></prop0>
+			<prop1><![CDATA[Log in of registreer als nieuwe klant]]></prop1>
+			<prop3><![CDATA[Log in of registreer als nieuwe klant]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$CustomerInfo$$]]></prop0>
+			<prop1><![CDATA[Je gegevens]]></prop1>
+			<prop3><![CDATA[Je gegevens]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$CustomerBilling$$]]></prop0>
+			<prop1><![CDATA[Factuuradres]]></prop1>
+			<prop3><![CDATA[Factuuradres]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$CustomerDelevery$$]]></prop0>
+			<prop1><![CDATA[Bezorgadres]]></prop1>
+			<prop3><![CDATA[Bezorgadres]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$PaymentText$$]]></prop0>
+			<prop1><![CDATA[Kies je betaalmethode]]></prop1>
+			<prop3><![CDATA[Kies je betaalmethode]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$AddPhotos$$]]></prop0>
+			<prop1><![CDATA[Foto('s) toevoegen]]></prop1>
+			<prop3><![CDATA[Foto('s) toevoegen]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Order$$]]></prop0>
+			<prop1><![CDATA[Bestellen]]></prop1>
+			<prop3><![CDATA[Bestellen]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$OrderDisabled$$]]></prop0>
+			<prop1><![CDATA[Bestellen grijs]]></prop1>
+			<prop3><![CDATA[Bestellen grijs]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Place6$$]]></prop0>
+			<prop1><![CDATA[960,444]]></prop1>
+			<prop3><![CDATA[960,444]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Move6$$]]></prop0>
+			<prop1><![CDATA[-120,0]]></prop1>
+			<prop3><![CDATA[-120,0]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Move7$$]]></prop0>
+			<prop1><![CDATA[120,0]]></prop1>
+			<prop3><![CDATA[120,0]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Place8$$]]></prop0>
+			<prop1><![CDATA[10,10]]></prop1>
+			<prop3><![CDATA[10,10]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Place9$$]]></prop0>
+			<prop1><![CDATA[900,400]]></prop1>
+			<prop3><![CDATA[900,400]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Place10$$]]></prop0>
+			<prop1><![CDATA[1140,375]]></prop1>
+			<prop3><![CDATA[1140,375]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Move10$$]]></prop0>
+			<prop1><![CDATA[0,-70]]></prop1>
+			<prop3><![CDATA[0,-70]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Place11$$]]></prop0>
+			<prop1><![CDATA[975,475]]></prop1>
+			<prop3><![CDATA[975,475]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$Place12$$]]></prop0>
+			<prop1><![CDATA[1100,465]]></prop1>
+			<prop3><![CDATA[1100,465]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$BaseTitle$$]]></prop0>
+			<prop1><![CDATA[Albelli.nl | Fotoboek, canvas of agenda maken met je eigen foto's]]></prop1>
+			<prop3><![CDATA[Albelli.nl | Fotoboek, canvas of agenda maken met je eigen foto's]]></prop3>
+		</task>
+		<task name="savingVariable">
+			<prop0><![CDATA[$$HeaderCustomerServices$$]]></prop0>
+			<prop1><![CDATA[Header CustomerServices]]></prop1>
+			<prop3><![CDATA[]]></prop3>
+		</task>
+		<task name="Log">
+			<prop0><![CDATA[Vendor: $$vendor$$]]></prop0>
+			<prop1><![CDATA[3]]></prop1>
+		</task>
+		<task name="Log">
+			<prop0><![CDATA[Product: $$product$$]]></prop0>
+			<prop1><![CDATA[3]]></prop1>
+		</task>
+		<task name="Log">
+			<prop0><![CDATA[Language: $$language$$]]></prop0>
+			<prop1><![CDATA[3]]></prop1>
+		</task>
+		<task name="Log">
+			<prop0><![CDATA[Papid: $$papid$$]]></prop0>
+			<prop1><![CDATA[3]]></prop1>
+		</task>
+		<task name="Log">
+			<prop0><![CDATA[Titel: $$Title$$]]></prop0>
+			<prop1><![CDATA[3]]></prop1>
+		</task>
+	</actions>
+</test>
