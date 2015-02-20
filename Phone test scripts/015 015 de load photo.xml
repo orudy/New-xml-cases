@@ -12,8 +12,8 @@
 			<prop0><![CDATA[300000]]></prop0>
 			<prop1><![CDATA[]]></prop1>
 		</task>
-		<task name="checkElementPresent">
-			<prop0><![CDATA[Phonecase holder]]></prop0>
+		<task name="checkTextPresent">
+			<prop0><![CDATA[$$Title$$]]></prop0>
 			<prop1><![CDATA[]]></prop1>
 		</task>
 		<task name="setTimeout">

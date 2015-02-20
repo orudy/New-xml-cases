@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test>
+	<name><![CDATA[015 015 upload changing quality]]></name>
+	<description><![CDATA[upload picture.]]></description>
+	<configurationUrl><![CDATA[c:\testautomaat\_config]]></configurationUrl>
+	<actions>
+		<task name="openUrl">
+			<prop0><![CDATA[$$vendor$$.$$language$$/PhoneCase/5/?articleType=$$product$$&papId=PAP_$$papid$$#/$$productsmall$$]]></prop0>
+			<prop1><![CDATA[]]></prop1>
+		</task>
+		<task name="setTimeout">
+			<prop0><![CDATA[300000]]></prop0>
+			<prop1><![CDATA[]]></prop1>
+		</task>
+		<task name="checkTextPresent">
+			<prop0><![CDATA[$$Title$$]]></prop0>
+			<prop1><![CDATA[]]></prop1>
+		</task>
+		<task name="setTimeout">
+			<prop0><![CDATA[20000]]></prop0>
+			<prop1><![CDATA[]]></prop1>
+		</task>
+		<task name="suppressWindowUnloadEvent" />
+		<task name="addPictureToApplication">
+			<prop0><![CDATA[picture65.jpg]]></prop0>
+		</task>
+		<task name="ClickandMoveonScreen">
+			<prop0><![CDATA[xpath=.//*[@id='application']/aside/ul[2]/li/div/div[3]/ul/li[1]]]></prop0>
+			<prop1><![CDATA[xpath=.//*[@id='main-canvas']]]></prop1>
+			<prop2><![CDATA[50,50]]></prop2>
+		</task>
+			</actions>
+</test>
