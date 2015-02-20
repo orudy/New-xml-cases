@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <test>
 	<name><![CDATA[015 015 upload changing quality]]></name>
-	<description><![CDATA[upload picture change quality. Change quality using slider. Zoom out with button. Check with screendumps.]]></description>
+	<description><![CDATA[upload picture.]]></description>
 	<configurationUrl><![CDATA[c:\testautomaat\_config]]></configurationUrl>
 	<actions>
 		<task name="openUrl">
@@ -29,88 +29,5 @@
 			<prop1><![CDATA[xpath=.//*[@id='main-canvas']]]></prop1>
 			<prop2><![CDATA[50,50]]></prop2>
 		</task>
-		<task name="ClickAt">
-			<prop0><![CDATA[xpath=.//*[@id='main-canvas']]]></prop0>
-			<prop1><![CDATA[50,50]]></prop1>
-		</task>
-		<task name="checkElementPresent">
-			<prop0><![CDATA[Roteren]]></prop0>
-			<prop1><![CDATA[]]></prop1>
-		</task>
-		<task name="Click">
-			<prop0><![CDATA[Roteren]]></prop0>
-			<prop1><![CDATA[]]></prop1>
-		</task>
-		<task name="Click">
-			<prop0><![CDATA[Zoomin picture]]></prop0>
-			<prop1><![CDATA[3]]></prop1>
-		</task>
-		<task name="checkElementPresent">
-			<prop0><![CDATA[Quality indicator 1]]></prop0>
-			<prop1><![CDATA[]]></prop1>
-		</task>
-		<task name="checkTextInField">
-			<prop0><![CDATA[Quality indicator 1]]></prop0>
-			<prop1><![CDATA[$$QualityText$$]]></prop1>
-		</task>
-		<task name="contentinField">
-			<prop0><![CDATA[Quality indicator 2]]></prop0>
-			<prop1><![CDATA[yes]]></prop1>
-		</task>
-		<task name="screenDump">
-			<prop0><![CDATA[$$vendor$$_$$language$$_$$papid$$_$$prodshort$$_TS_015 015 UPLOAD CHANGING QUALITY_$$QualityGood$$]]></prop0>
-			<prop1><![CDATA[]]></prop1>
-		</task>
-		<task name="ComparePicture">
-			<prop0><![CDATA[screendump\$$vendor$$_$$language$$_$$papid$$_$$prodshort$$_TS_015 015 UPLOAD CHANGING QUALITY_$$QualityGood$$.png]]></prop0>
-			<prop1><![CDATA[baseline\$$vendor$$_$$language$$_$$papid$$_$$prodshort$$_TS_015 015 UPLOAD CHANGING QUALITY_$$QualityGood$$.png]]></prop1>
-		</task>
-		<task name="ClickandMoveonScreen">
-			<prop0><![CDATA[$$Place10$$]]></prop0>
-			<prop1><![CDATA[$$Move10$$]]></prop1>
-		</task>
-		<task name="checkElementPresent">
-			<prop0><![CDATA[Quality indicator 1]]></prop0>
-			<prop1><![CDATA[]]></prop1>
-		</task>
-		<task name="checkTextInField">
-			<prop0><![CDATA[Quality indicator 1]]></prop0>
-			<prop1><![CDATA[$$QualityText$$]]></prop1>
-		</task>
-		<task name="contentinField">
-			<prop0><![CDATA[Quality indicator 2]]></prop0>
-			<prop1><![CDATA[yes]]></prop1>
-		</task>
-		<task name="screenDump">
-			<prop0><![CDATA[$$vendor$$_$$language$$_$$papid$$_$$prodshort$$_TS_015 015 UPLOAD CHANGING QUALITY_$$QualityInsufficient$$]]></prop0>
-			<prop1><![CDATA[]]></prop1>
-		</task>
-		<task name="ComparePicture">
-			<prop0><![CDATA[screendump\$$vendor$$_$$language$$_$$papid$$_$$prodshort$$_TS_015 015 UPLOAD CHANGING QUALITY_$$QualityInsufficient$$.png]]></prop0>
-			<prop1><![CDATA[baseline\$$vendor$$_$$language$$_$$papid$$_$$prodshort$$_TS_015 015 UPLOAD CHANGING QUALITY_$$QualityInsufficient$$.png]]></prop1>
-		</task>
-		<task name="Click">
-			<prop0><![CDATA[Zoomout picture]]></prop0>
-			<prop1><![CDATA[3]]></prop1>
-		</task>
-		<task name="checkElementPresent">
-			<prop0><![CDATA[Quality indicator 1]]></prop0>
-			<prop1><![CDATA[]]></prop1>
-		</task>
-		<task name="checkTextInField">
-			<prop0><![CDATA[Quality indicator 1]]></prop0>
-			<prop1><![CDATA[$$QualityText$$]]></prop1>
-		</task>
-		<task name="contentinField">
-			<prop0><![CDATA[Quality indicator 2]]></prop0>
-			<prop1><![CDATA[yes]]></prop1>
-		</task>
-		<task name="screenDump">
-			<prop0><![CDATA[$$vendor$$_$$language$$_$$papid$$_$$prodshort$$_TS_015 015 UPLOAD CHANGING QUALITY_$$Qualityreasonable$$]]></prop0>
-		</task>
-		<task name="ComparePicture">
-			<prop0><![CDATA[screendump\$$vendor$$_$$language$$_$$papid$$_$$prodshort$$_TS_015 015 UPLOAD CHANGING QUALITY_$$Qualityreasonable$$.png]]></prop0>
-			<prop1><![CDATA[baseline\$$vendor$$_$$language$$_$$papid$$_$$prodshort$$_TS_015 015 UPLOAD CHANGING QUALITY_$$Qualityreasonable$$.png]]></prop1>
-		</task>
-	</actions>
+			</actions>
 </test>
